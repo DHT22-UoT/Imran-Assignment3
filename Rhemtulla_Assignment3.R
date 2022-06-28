@@ -10,7 +10,7 @@
 #' printing of variables and function calls. Code can be copy and pasted out for
 #' testing of components.
 
-hangman <- function() {
+hangman <- function() { #good use of function!
   
   ###### SETUP FOR GAME #####
   
@@ -42,7 +42,8 @@ hangman <- function() {
   
   correct_inputs = c("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", 
                      "m", "n", "o","p","q", "r", "s", "t", "u", "v", "w", "x", 
-                     "w", "z")
+                     "w", "z") #i think there is also built-in 'letters' variable that includes these
+ 
   
   ##### GAME #####
   
@@ -122,3 +123,4 @@ hangman <- function() {
 
 hangman()
 
+#great use of comments and descriptive variable names 
